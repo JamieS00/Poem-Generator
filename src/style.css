@@ -1,9 +1,59 @@
-/* body {
-  background: pink;
+body {
+  background-color: lightsteelblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px; /* so it would be center*/
+}
+a {
+  color: white;
+}
+header {
+  margin-bottom: 10px; /*area at bottom of element*/
 }
 h1 {
   text-align: center;
+  font-size: 36px;
+  line-height: 1.5;
 }
+form {
+  padding: 30px; /*spacing around form element(top to bottom)*/
+  background-color: white;
+  border-radius: 10px;
+  display: flex; /*want text box and submit button next to eachother */
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  margin-bottom: 30px; /*space at bottom of form element*/
+  /* justify-content: space-evenly; */
+}
+.search {
+  padding: 12px; /*area around search element*/
+  border: 1px solid;
+  border-radius: 8px;
+  width: 80%; /*makes input wider*/
+}
+.s-button:hover {
+  cursor: pointer;
+}
+.s-button {
+  margin-left: 10px;
+  width: 30%;
+  border: none;
+  border-radius: 5px;
+  background-color: pink;
+  color: white;
+}
+.poem {
+  text-align: center;
+  font-size: 16px;
+  background-color: #fff;
+  line-height: 2;
+  border-left: 8px solid pink;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+
 footer {
   text-align: center;
-} */
+  font-size: 14px;
+  margin-top: 30px;
+}
