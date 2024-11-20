@@ -6,6 +6,9 @@
     <title>AI Poem Generator</title>
     <!--LINK TO CSS-->
     <link rel="stylesheet" href="src/style.css" />
+
+    <!--Typerwriter plugin-->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
@@ -14,7 +17,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="poem-form">
           <input
             type="text"
             placeholder="Enter a topic for poem"
@@ -25,14 +28,14 @@
           <input type="submit" class="s-button" />
         </form>
 
-        <div class="poem">
-          The poem
+        <div class="poem" id="poem">
+          <!-- The poem
           <br />
           will
           <br />
           display
           <br />
-          here
+          here -->
         </div>
       </main>
 
