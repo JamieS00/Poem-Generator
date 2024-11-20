@@ -43,6 +43,10 @@ form {
   background-color: pink;
   color: white;
 }
+/* .input-hint {
+  font-size: 10px;
+  color: blue;
+} */
 .poem {
   text-align: center;
   font-size: 16px;
