@@ -7,6 +7,9 @@
     <!--LINK TO CSS-->
     <link rel="stylesheet" href="src/style.css" />
 
+    <!--Import Axios for api-->
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+
     <!--Typerwriter plugin-->
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
@@ -24,19 +27,12 @@
             required
             autofocus
             class="search"
+            id="search-input"
           />
           <input type="submit" class="s-button" />
         </form>
 
-        <div class="poem" id="poem">
-          <!-- The poem
-          <br />
-          will
-          <br />
-          display
-          <br />
-          here -->
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
 
       <footer>
