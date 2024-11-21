@@ -22,7 +22,7 @@ let generatePoem = (event) => {
   let apiKey = "4ddbb61eb5o419b8d734a63d7f1t0b56";
   let prompt = `Generate poem about ${searchInput.value}`;
   let context =
-    " You're a poem expert who loves to write poems! Your goal is to create a short poem";
+    " You're a poem expert who loves to write poems! Please create a short poem of 5 lines";
 
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
