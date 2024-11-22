@@ -20,17 +20,20 @@
       </header>
 
       <main>
-        <form id="poem-form">
-          <input
-            type="text"
-            placeholder="Enter a topic for poem"
-            required
-            autofocus
-            class="search"
-            id="search-input"
-          />
-          <input type="submit" class="s-button" />
-        </form>
+        <div class="form-container">
+          <form id="poem-form">
+            <input
+              type="text"
+              placeholder="Enter a topic for poem"
+              required
+              autofocus
+              class="search"
+              id="search-input"
+            />
+            <input type="submit" class="s-button" />
+          </form>
+          <div class="hint">i.e: Peace, Family or Love</div>
+        </div>
 
         <div class="poem" id="poem"></div>
       </main>
