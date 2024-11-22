@@ -17,10 +17,10 @@ let generatePoem = (event) => {
   // console.log(searchInput.value); //testing
 
   let poem = document.querySelector("#poem");
-  poem.innerHTML = `⏳ Generating poem about ${searchInput.value} please wait...`;
+  poem.innerHTML = `<div class="generate-blink"> ⏳ Generating a poem about ${searchInput.value}...</div>`;
 
   let apiKey = "4ddbb61eb5o419b8d734a63d7f1t0b56";
-  let prompt = `Generate poem about ${searchInput.value}`;
+  let prompt = ` Generate poem about ${searchInput.value}`;
   let context =
     " You're a poem expert who loves to write poems! Please create a short poem of 5 lines";
 
